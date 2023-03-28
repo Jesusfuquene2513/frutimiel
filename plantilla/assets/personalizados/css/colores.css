@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+
+label , span , p {
+	
+font-family: 'Dosis', sans-serif;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+
+	font-family:  'IM Fell DW Pica', serif;
+}
+
+
+
+h1{
+	color:#fcc41a
+}
+
+
+
+
+
+body{
+	background-image: url("../img/panal2.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+p{
+	text-align: justify;
+}
+
+#nosotros p , #nosotros span{
+	color:black;
+}
+#mision p , #mision span{
+	color:black;
+}
+
+#vision p , #vision span{
+	color:black;
+}
+#barra{
+
+	border-bottom: solid 3px #167c47;
+	background-color: white;
+}
+
+#divider{
+	
+}
+
+.nav-link{
+	color: #fcc41a;
+	font-weight: bolder;
+	text-decoration:underline;
+	text-align: center;
+}
+
+.nav-link:hover{
+	color:   #167c47 ;
+}
+
+.dropdown-item:hover{
+	border-left: solid 3px #167c47 ;
+}
+
+
+
+.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color:  #fcc41a ;
+}
+
+.footer .btn.btn-link::before {
+    
+    color:  #fcc41a ;
+}
+
+.fab {
+	color:  white  ;
+
+}
+
+.red{
+	background:  #74b48c ;
+	font-size: 10px;
+
+
+}
+.accordion .accordion-button:not(.collapsed){
+	background-color: #74b48c
+}
+
+.footer .btn.btn-square{
+	border:none;
+	font-size: 25px;
+}
+
+.bt{
+background: rgba(32,202,251,255);	
+border:none;
+
+}
+
+.bt2{
+color: #167c47;	
+
+}
+
+.bt:hover{
+background: #167c47;	
+border:none;
+}
+
+.roadmap-carousel .roadmap-item .roadmap-point span{
+		background: none;
+		border:solid #fcc41a 3px;
+		display: none
+}
+
+.roadmap-carousel .roadmap-item .roadmap-point {
+   
+    border: 2px #fcc41a;
+   
+}
+
+.roadmap-carousel .roadmap-item::after {
+ background: none;
+ display: none;
+}
+
+.navbar-toggler{
+	
+}
+
+.roadmap-carousel .roadmap-item::before{
+	display:none;
+	background:none;
+	border:none;
+}
+.roadmap-carousel .roadmap-item .roadmap-point{
+	display:none;
+}
+
+
+.service-item::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -80px;
+    right: -80px;
+    border: 80px solid;
+    transform: rotate(45deg);
+    opacity: 1;
+    transition: .5s;
+}
+
+.service-item.bg-white::after {
+    border-color: rgb(120, 68, 44 , 0.9);
+}
+
+.service-item2.bg-white::after {
+    display:none;}
+
+.producto-item{
+	cursor:pointer;
+	margin-top: 6px; margin-bottom: 6px;
+	position:relative;
+}
+
+.bt3{
+background: white;	
+}
+
+.cinta-producto{
+	background: rgb(116,180,140 , 0.7);
+background: linear-gradient(107deg, rgba(116,180,140,0.8) 37%, rgba(22,124,71,0.8) 64%, rgba(116,180,140,0.8) 100%, rgba(252,196,26,0.8) 100%);
+position:absolute;
+bottom:0;
+display:none;
+}
+
+.cinta-producto2{
+	background: rgb(116,180,140);
+background: linear-gradient(107deg, rgba(116,180,140,1) 37%, rgba(22,124,71,1) 64%, rgba(116,180,140,1) 100%, rgba(252,196,26,1) 100%);
+
+display:block;
+}
+
+.btn-solicitar{
+	color: rgb(120, 68, 44 );
+	font-size: 20px;
+}
+
+.btn-solicitar i{
+	position:relative;
+	left:-2px;
+}
+
+.nombre-foto{
+	text-shadow: black 1px 0 2px;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+ .zoom {
+    transform: scale(0.9); 
+}
+.zoom:hover {
+    transform: scale(0.8); 
+}
+
+.zoom2 {
+    transition: transform .5s; 
+    cursor:pointer;
+}
+ 
+.zoom2:hover {
+    transform: scale(0.9); 
+}
+
+.accordion p{
+	color:black;
+	font-weight: bolder;
+}
+
+.accordion span{
+	color:black;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+

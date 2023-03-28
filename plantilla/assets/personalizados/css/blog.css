@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+
+	.elemento-blog{
+		height:320px;
+	}
+}
+@media only screen and (min-width: 600px) {
+
+	.elemento-blog{
+		height:370px;
+	}
+}
+@media only screen and (min-width: 768px) {
+
+	.elemento-blog{
+		height:320px;
+	}
+}
+@media only screen and (min-width: 992px) {
+
+	.elemento-blog{
+		height:350px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+
+	.elemento-blog{
+		height:370px;
+	}
+}

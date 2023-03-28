@@ -1,0 +1,40 @@
+#whatsapp{
+display:none;
+background: white;
+position: fixed;
+bottom:0;
+right: 0;	
+	z-index: 100;
+	border: solid 3px rgb(7 ,94, 84);
+	
+	
+
+}
+
+.card-header-whatsapp{
+	background: rgb(7 ,94, 84);
+	padding: 10px; 
+	color:white;
+	font-style: oblique;
+	font-weight:bolder;
+	position: relative; 
+	text-shadow: black 2px 0 3px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: none
+
+}
+
+.fa-user , .fa-envelope{
+
+	color:white
+
+}
+.input-group-text{
+
+	background: rgb(7 ,94, 84);
+
+}
+input .form-control{
+	color:black;
+}

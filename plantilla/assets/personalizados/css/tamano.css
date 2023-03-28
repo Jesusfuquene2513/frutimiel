@@ -1,0 +1,196 @@
+.navbar-toggler{
+	display:flex; align-items: center;
+}
+
+	.btn-abrir-menu{
+	position:relative;
+	left:13px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.img-carrusel{
+	height:300px;
+}
+
+#slider{
+	margin-top: 40px;
+}
+
+.btn-abrir-menu{
+	width:40px; height:40px;
+	font-size: 18px;
+	border-radius: 5px;
+	display:block;
+	
+}
+#aliados{
+  background: url("https://i.gifer.com/origin/07/07b8fff3079c0269017be979ec544956.gif");
+  background-size: 20%;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-position: top;
+
+  
+}
+.logo-superior{
+	position:relative;
+	left:-23px;
+}
+
+
+}
+@media only screen and (min-width: 600px) {
+.img-carrusel{
+	height:400px;
+}
+
+#slider{
+	margin-top: 40px;
+}
+
+.btn-abrir-menu{
+	width:40px; height:40px;
+	font-size: 18px;
+	border-radius: 5px;
+	display:block;
+}
+#aliados{
+  background: url("https://i.gifer.com/origin/07/07b8fff3079c0269017be979ec544956.gif");
+  background-size: 18%;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-position: top;
+
+  
+}
+
+.logo-superior{
+	position:relative;
+	left:-20px;
+}
+
+}
+@media only screen and (min-width: 768px) {
+.img-carrusel{
+	height:500px;
+}
+
+#slider{
+	margin-top: 45px;
+}
+
+.btn-abrir-menu{
+	width:40px; height:40px;
+	font-size: 18px;
+	border-radius: 5px;
+	display:block;
+}
+#aliados{
+  background: url("https://i.gifer.com/origin/07/07b8fff3079c0269017be979ec544956.gif");
+  background-size: 18%;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  
+}
+
+.logo-superior{
+	position:relative;
+	left:-15px;
+}
+
+}
+@media only screen and (min-width: 992px) {
+.img-carrusel{
+	height:600px;
+}
+
+#slider{
+	margin-top: 60px;
+}
+
+.btn-abrir-menu{
+	width:35px; height:35px;
+	font-size: 15px;
+	border-radius: 5px;
+	display:none;
+}
+
+#aliados{
+  background: url("https://i.gifer.com/origin/07/07b8fff3079c0269017be979ec544956.gif");
+  background-size: 20%;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-position: left;
+
+  
+}
+
+.logo-superior{
+	position:relative;
+	left:5px;
+}
+
+
+
+}
+@media only screen and (min-width: 1200px) {
+.img-carrusel{
+	height:700px;
+}
+
+#slider{
+	margin-top: 60px;
+}
+.img-perfil{
+
+
+	width: 350px; height: 300px;
+}
+
+.btn-abrir-menu{
+	width:35px; height:35px;
+	font-size: 15px;
+	border-radius: 5px;
+	display:none;
+}
+
+#aliados{
+  background: url("https://i.gifer.com/origin/07/07b8fff3079c0269017be979ec544956.gif");
+  background-size: 20%;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-position: right;
+
+  
+}
+
+.logo-improvisado{
+	font-size: 30px;
+}
+.logo-superior{
+	position:relative;
+	left:5px;
+}
+
+}
+
+
+.roadmap-carousel::before{
+display:none;
+}
+
+.btn-solicitar{
+	border-radius: 50%;
+	width: 40px; height:40px;
+}
+
+
+

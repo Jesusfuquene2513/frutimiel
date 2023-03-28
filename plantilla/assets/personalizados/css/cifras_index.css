@@ -1,0 +1,68 @@
+
+.cifra , .card{
+
+   display:table;
+
+  
+    
+}
+
+#visitas{
+    color:white;
+}
+
+.counter{
+    height:100%;
+    display: flex; 
+width:100%;
+text-align: center;
+height:100px;
+}
+
+
+
+.counter2{
+    height:100%;
+    display: flex; 
+width:100%;
+text-align: center;
+height:100px;
+}
+
+.counter3{
+    height:100%;
+    display: flex; 
+width:100%;
+text-align: center;
+height:100px;
+}
+
+.counter4{
+    height:100%;
+    display: flex; 
+width:100%;
+text-align: center;
+height:100px;
+}
+
+.counter2:not(.is-visible) {
+    visibility: hidden;
+}
+
+.counter4:not(.is-visible) {
+    visibility: hidden;
+}
+
+.cuenta{
+    font-size:90px; color:#167c47;
+    text-shadow: black 1px 0 4px;
+    width:100%;
+    margin:auto;
+}
+
+.indicador{
+     font-size:30px; color:#fcc41a;
+    text-shadow: black 1px 0 4px;
+    width:100%;
+    margin:auto;
+}
